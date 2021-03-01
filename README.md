@@ -47,8 +47,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
@@ -58,6 +56,7 @@ This project contains a collection of apps and This project contains a collectio
 <!-- BUILT WITH -->
 
 ### Built With
+
 <ul>
 <li>Javascript</li>
 <li>Open Weather</li>
@@ -74,11 +73,10 @@ This project contains a collection of apps and This project contains a collectio
 <li>Data Jar</li>
 </ul>
 
-
-
 <!-- GETTING STARTED -->
 
 ## Getting Started
+
 To download a copy of this reposiroty to your local disk, perform the following.
 
 <ol>
@@ -91,7 +89,9 @@ To download a copy of this reposiroty to your local disk, perform the following.
 </ol>
 
 ### Prerequisites
+
 <b><u>All Scripts:</b></u>
+
 <ul>
 <li>A device running the latest version of IOS/iPasOS</li>
 <li>An Apple account</li>
@@ -100,9 +100,10 @@ To download a copy of this reposiroty to your local disk, perform the following.
 <li>Shortcuts</li>
 </ul>
 
-<b><u> Other: </b></u> Some scripts may require additional tools. Please check the README file that corresponds to the app you downloaded. 
+<b><u> Other: </b></u> Some scripts may require additional tools. Please check the README file that corresponds to the app you downloaded.
 
 ### Installation
+
 <ul>
 <li>Open Weather</li>
 <li>Trello</li>
@@ -115,13 +116,14 @@ To download a copy of this reposiroty to your local disk, perform the following.
 <li>Data Jar</li>
 </ul>
 
-<bu>Scripts:</bu> To install the Scriptable scripts, simply move the .JS file(s) to the Scriptable folder on your device. 
+<bu>Scripts:</bu> To install the Scriptable scripts, simply move the .JS file(s) to the Scriptable folder on your device.
 
 <bu>Shortcuts:</bu> In the Shortcuts app, make sure you have the option to allow untrusted shortcuts enabled. Click on the iCloud link provided with each shortcut. Once the Shortcuts app opens, click on Add untrusted shortcut.
 
 <!-- LICENSE -->
-  
+
 ## License
+
 Distributed under the Mozilla Public License 2.0. See `LICENSE` for more information.
 
 <!-- CONTACT -->
