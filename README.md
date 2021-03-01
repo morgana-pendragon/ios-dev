@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/morgana-pendragon/jsDEV/">
+  <a href="https://github.com/morgana-pendragon/ios-dev/">
     <img src="images/devLogo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -10,14 +10,14 @@
   <p align="center">
     This project contains a collection of apps, and automation scripts that I made. These were developed for IOS and iPadOS devices utilizing Javascript and the Shortcuts app.
     <br />
-    <a href="https://github.com/morgana-pendragon/jsDEV"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/morgana-pendragon/ios-dev"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/morgana-pendragon/jsDEV">View Demo</a>
+    <a href="https://github.com/morgana-pendragon/ios-dev">View Demo</a>
     ·
-    <a href="https://github.com/morgana-pendragon/jsDEV/issues">Report Bug</a>
+    <a href="https://github.com/morgana-pendragon/ios-dev/issues">Report Bug</a>
     ·
-    <a href="https://github.com/morgana-pendragon/jsDEV/issues">Request Feature</a>
+    <a href="https://github.com/morgana-pendragon/ios-dev/issues">Request Feature</a>
   </p>
 </p>
 
@@ -132,7 +132,7 @@ Distributed under the Mozilla Public License 2.0. See `LICENSE` for more informa
 
 Morgana Pendragon - morganapendragon.albion@gmail.com
 
-Project Link: [https://github.com/morgana-pendragon/jsDEV](https://github.com/morgana-pendragon/jsDEV)
+Project Link: [https://github.com/morgana-pendragon/jsDEV](https://github.com/morgana-pendragon/ios-dev)
 
 <!-- ACKNOWLEDGEMENTS -->
 
