@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>Word of the Day v1.2 copyright 2018 by Tim Nicholson (timrnicholson@gmail.com).
+
+This shortcut pulls the word of the day from Merriam-Webster.com. It can even be run from your Watch if you configure it as a Siri shortcut.
+
+This shortcut can be run stand-alone or from another shortcut as RoutineKit or My RoutineKit, which will pull information from various other shortcuts like this together.
+
+This shortcut also incorporates the UpdateKit shortcut so you can receive a notification to download a new version when I make updates to this shortcut.
+
+Keywords: Daily Routines, words, language, learning, Merriam-Webster, RoutineKit 
+
+Supports: RoutineKit, UpdateKit
+
+Compatibility: iPhone, iPad, Apple Watch, HomePod 
+ 
+v1.2 Cleans up the code a bit and better supports being called from another shortcut (such as RoutineKit) that may want to use the output as Markdown. Also, output the text at the end to suppress UpdateKits version info.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>ExtensionInput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>ShortcutInputs</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>Get the most current word of the day and format it. The HTML it returns is pretty whacky so convert to Markdown as that is easier to manipulate.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getmarkdownfromrichtext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>39673A89-C26E-4D31-AF4A-B9D12DE85791</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Items from RSS Feed</string>
+						<key>OutputUUID</key>
+						<string>5E3EF5C5-F9C6-4819-BF47-26745161CC37</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.rss</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>5E3EF5C5-F9C6-4819-BF47-26745161CC37</string>
+				<key>WFRSSFeedURL</key>
+				<string>http://www.merriam-webster.com/wotd/feed/rss2</string>
+				<key>WFRSSItemQuantity</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientVersion</key>
+	<string>1092.9.8</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59465</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>946986751</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>Watch</string>
+		<string>NCWidget</string>
+	</array>
+</dict>
+</plist>
