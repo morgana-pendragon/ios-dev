@@ -1,27 +1,12 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
-// icon-color: deep-green; icon-glyph: rss-square;
-/* 
-Script : spotify-auth.js
-Author : @supermamon
-Version: 1.0.0
-
-More Info: https://github.com/supermamon/oauth-proxy
-
-Assumptions:
-* a `spotify` directory under the Scriptable 
-  that contains `client.json`. Use the
-  `Save OAuth Client Info` script to generate
-  `client.json
-
-*/
-
+// icon-color: deep-blue; icon-glyph: magic;
 const FM        = FileManager.iCloud();
 const HOME      = FM.documentsDirectory();
 const Spotify   = importModule('./spotify-api.js')
 
-// new instance of the Spotify client
-const app = new Spotify(FM.joinPath(HOME, 'spotify'))
+// new instance of the Pocket client
+const app = new Pocket(FM.joinPath(HOME, 'ipadjs'))
 
 async function alert(message) {
     let msg = new Alert()
@@ -47,4 +32,3 @@ if (!args.queryParameters['code']) {
     await alert(`${app.user.display_name} authenticated. Access expires on ${app.token.expires_on.toString()}.`) 
 
 }
-
